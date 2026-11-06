@@ -1,12 +1,12 @@
 class Sratim < Formula
   desc "Ultra-lightweight, high-performance media server written in pure Zig"
   homepage "https://github.com/borisgk/sratim"
-  version "1.31.2"
+  version "1.31.3"
 
   on_macos do
     on_arm do
       url "https://github.com/borisgk/sratim/releases/download/v#{version}/sratim-macos-aarch64"
-      sha256 "ee07d1f5b66fe4d73571f13aea83c4bcbe6cbec467297568e8b76670602bf136"
+      sha256 "612204e5fea4e716545018931617df395ea35c76d6a5c05a8cd91fc9aeb7dd18"
 
       def install
         bin.install "sratim-macos-aarch64" => "sratim"
